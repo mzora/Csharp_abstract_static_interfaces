@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract__static_and_interfaces", "Abstract__static_and_interfaces.csproj", "{C94AF39E-C1E6-4448-B1A4-25F5B1964AB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Es_Personale", "Es_Personale\Es_Personale.csproj", "{133DFE9B-B9DA-482D-A637-E76EEE007EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static_word", "Static_word\Static_word.csproj", "{C36D5E85-685F-4988-8956-C18267554E0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Es_EsseriViventi", "Es_EsseriViventi\Es_EsseriViventi.csproj", "{DA000DA2-F0E1-4D6A-9741-BCD6216F790C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C94AF39E-C1E6-4448-B1A4-25F5B1964AB3}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{C94AF39E-C1E6-4448-B1A4-25F5B1964AB3}.Debug|anycpu.Build.0 = Debug|anycpu
+		{C94AF39E-C1E6-4448-B1A4-25F5B1964AB3}.Release|anycpu.ActiveCfg = Release|anycpu
+		{C94AF39E-C1E6-4448-B1A4-25F5B1964AB3}.Release|anycpu.Build.0 = Release|anycpu
+		{133DFE9B-B9DA-482D-A637-E76EEE007EE2}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{133DFE9B-B9DA-482D-A637-E76EEE007EE2}.Debug|anycpu.Build.0 = Debug|anycpu
+		{133DFE9B-B9DA-482D-A637-E76EEE007EE2}.Release|anycpu.ActiveCfg = Release|anycpu
+		{133DFE9B-B9DA-482D-A637-E76EEE007EE2}.Release|anycpu.Build.0 = Release|anycpu
+		{C36D5E85-685F-4988-8956-C18267554E0D}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{C36D5E85-685F-4988-8956-C18267554E0D}.Debug|anycpu.Build.0 = Debug|anycpu
+		{C36D5E85-685F-4988-8956-C18267554E0D}.Release|anycpu.ActiveCfg = Release|anycpu
+		{C36D5E85-685F-4988-8956-C18267554E0D}.Release|anycpu.Build.0 = Release|anycpu
+		{DA000DA2-F0E1-4D6A-9741-BCD6216F790C}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{DA000DA2-F0E1-4D6A-9741-BCD6216F790C}.Debug|anycpu.Build.0 = Debug|anycpu
+		{DA000DA2-F0E1-4D6A-9741-BCD6216F790C}.Release|anycpu.ActiveCfg = Release|anycpu
+		{DA000DA2-F0E1-4D6A-9741-BCD6216F790C}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
