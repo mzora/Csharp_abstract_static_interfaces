@@ -14,7 +14,7 @@ namespace Es_EsseriViventi
             //20 cani 5 pesci 3 betulle 5 gigli
 
             List<IEssereVivente> esseriViventi = new List<IEssereVivente>();
-            //List<Animale> animali = new List<Animale>();
+            List<Animale> animali = new List<Animale>();
 
             for (int i = 1; i <= 20; i++)
             {
@@ -43,23 +43,26 @@ namespace Es_EsseriViventi
                 giglio.Id = i + 28;
                 esseriViventi.Add(giglio);
             }
-            
+            /*
             foreach(IEssereVivente essere in esseriViventi)
             {
-                essere.stampaDati();
+                //essere.stampaDati();
+
             }
-            foreach (Animale essere in esseriViventi)
+            */
+            IEnumerable<Animale> query1 = esseriViventi.OfType<Animale>();
+            foreach(Animale animale in query1)
             {
-                essere.Muoviti();
+                animale.Muoviti();
             }
 
+            Console.WriteLine("**************************\nsecondo foreach\n");
+            foreach(var obj in esseriViventi.Where(o => o is Pesce || o is Cane))
+            {
+                Console.WriteLine(obj);
+            }
 
             /*
-            foreach(var obj in IAnimale.Where(o => o is Pesce && o is Cane))
-            {
-                ((IEssereVivente)obj).
-            }
-            
             foreach(var xz in objects.Where(o => o is IX && o is IZ))
             {
                 xz.DoStuff();
