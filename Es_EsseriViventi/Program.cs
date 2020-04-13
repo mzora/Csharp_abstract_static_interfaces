@@ -50,6 +50,7 @@ namespace Es_EsseriViventi
 
             }
             */
+
             IEnumerable<Animale> query1 = esseriViventi.OfType<Animale>();
             foreach(Animale animale in query1)
             {
@@ -59,7 +60,7 @@ namespace Es_EsseriViventi
             Console.WriteLine("**************************\nsecondo foreach\n");
             foreach(var obj in esseriViventi.Where(o => o is Pesce || o is Cane))
             {
-                Console.WriteLine(obj);
+                
             }
 
             /*
